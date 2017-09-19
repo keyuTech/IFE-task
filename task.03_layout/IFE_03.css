@@ -1,0 +1,41 @@
+body{
+	background-color: #eee;
+	padding: 20px;
+	border: solid #999;
+}
+.main{
+	margin: 0 auto;
+	overflow: auto;
+}
+#middle{
+	margin-left:280px;
+	margin-right: 180px;
+	padding: 20px;
+	border: solid #999;
+	background-color: #FFF;
+}
+.sideleft{
+	float: left;
+	width: 200px;
+	padding: 20px;
+	border: solid #999;
+	background-color: #fff;
+}
+.picture {
+	width: 80px;
+	height: 80px;
+	border: solid #999;
+	margin:10px 20px;
+}
+.sideright{
+	float: right;
+	width: 120px;
+	margin-top: 0px;
+	padding: 20px;
+	border: solid #999;
+	background-color: #fff;
+}
+#nerv{
+	float: left;
+	border: solid #999;
+}
