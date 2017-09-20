@@ -1,0 +1,14 @@
+#sidebar{
+	position: relative;
+	float: right;
+	width: 600px;
+}
+.container{
+	margin-right: 660px;
+}
+.content{
+	float: left;
+}
+#picture{
+	overflow: auto;
+}
