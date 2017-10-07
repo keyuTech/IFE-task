@@ -1,0 +1,35 @@
+header .head {
+  height: 57px;
+  text-align: center;
+}
+.logo {
+  float: left;
+  margin-left: 50px;
+}
+.logo img {
+
+}
+.logo span {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.navbar {
+  float: right;
+  margin-right: 40px;
+}
+.navbar li {
+  float: left;
+  padding: 20px;
+
+}
+.navbar li a {
+  color: rgb(120, 123, 131)
+}
+.slogan .slogan-start {
+  background: url(https://ws1.sinaimg.cn/large/691e2a69gy1fjq189chuwj20zk0nqnpd.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 690px;
+}
