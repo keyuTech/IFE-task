@@ -1,19 +1,21 @@
 header .head {
   height: 57px;
-  text-align: center;
+  position: relative;
 }
 .logo {
-  float: left;
-  margin-left: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 59px;
 }
 .logo img {
-
+  margin: 3px 0;
 }
 .logo span {
   color: #000;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 .navbar {
   float: right;
