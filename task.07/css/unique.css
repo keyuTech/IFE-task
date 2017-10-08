@@ -3,31 +3,46 @@ header .head {
   position: relative;
 }
 .logo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  float: left;
   margin-left: 59px;
 }
-.logo img {
-  margin: 3px 0;
+.logo li {
+  float: left;
 }
-.logo span {
-  color: #000;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 10px;
+#logo-img {
+  height: 31px;
+  margin: 13px 0;
+}
+#logo-word {
+  height: 21px;
+  margin: 18px 0 18px 10px;
+}
+#logo-word span {
+  font-family: "SimHei";
+  font-size: 21px;
+}
+.login {
+  font-size: 14px;
+  color: rgb(231, 80, 77);
+  cursor: pointer;
+  float: right;
+  margin: 18px 66px 0 8px;
 }
 .navbar {
   float: right;
-  margin-right: 40px;
 }
 .navbar li {
+  font-size: 14px;
   float: left;
-  padding: 20px;
-
+  margin: 18px 4px 0 4px;
+  padding: 0 19px 15px 19px;
 }
 .navbar li a {
   color: rgb(120, 123, 131)
+}
+.navbar li:hover {
+  color: rgb(231, 80, 77);
+  border-bottom: rgb(231, 80, 77) 5px solid;
 }
 .slogan .slogan-start {
   background: url(https://ws1.sinaimg.cn/large/691e2a69gy1fjq189chuwj20zk0nqnpd.jpg) no-repeat;
