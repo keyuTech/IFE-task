@@ -130,9 +130,15 @@ header .head {
   width: 236px;
   height: 36px;
 }
+.city .chosen option {
+  font-size: 14px;
+  color: rgb(168, 170, 170);
+  background-color: rgb(228, 228, 228);
+}
 .city .search button {
   width: 236px;
   height: 36px;
   color: #fff;
+  border: none;
   background-color: rgb(239, 79, 71);
 }
