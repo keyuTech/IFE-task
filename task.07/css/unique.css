@@ -23,7 +23,7 @@ header .head {
 }
 .login {
   font-size: 14px;
-  color: rgb(231, 80, 77);
+  color: rgb(239, 79, 71);
   cursor: pointer;
   float: right;
   margin: 18px 66px 0 8px;
@@ -41,12 +41,98 @@ header .head {
   color: rgb(120, 123, 131)
 }
 .navbar li:hover {
-  color: rgb(231, 80, 77);
-  border-bottom: rgb(231, 80, 77) 5px solid;
+  color: rgb(239, 79, 71);
+  border-bottom: rgb(239, 79, 71) 5px solid;
 }
 .slogan .slogan-start {
+  color: #fff;
   background: url(https://ws1.sinaimg.cn/large/691e2a69gy1fjq189chuwj20zk0nqnpd.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 690px;
+}
+.slogan .slogan-info {
+  padding: 228px 0 67px 115px;
+}
+.slogan .slogan-start  .slogan-title {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.slogan .slogan-start .slogan-content {
+  font-size: 21px;
+  padding: 10px;
+}
+.slogan .slogan-start a {
+  color: #fff;
+  font-size: 30px;
+  background-color: rgb(239 , 79, 71);
+  padding: 11px 100px;
+  margin-left: 126px;
+}
+.slogan-intro .intro-details {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 44px 0 86px 0;
+}
+.slogan-intro .intro-details p {
+  color: rgb(119, 119, 119);
+  font-family: "SimHei";
+  margin-top: 46px;
+  padding: 0 70px;
+  border-right: 2px solid rgb(119, 119, 119);
+}
+.slogan-intro .intro-details:last-child p {
+  border: none;
+}
+.intro-title {
+  height: 361px;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  padding-top: 90px;
+}
+.intro-title h1 {
+  color: rgb(161, 161, 161);
+  font-size: 54px;
+  font-family: "SimHei";
+  margin-top: 48px;
+}
+.intro .city {
+  background: url(../image/task_1_7_1_0000s_0004s_0023_看地图.png) center no-repeat;
+  background-size: cover;
+  padding: 53px 108px 133px 108px;
+  text-align: center
+}
+.city h3 {
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.city .line {
+  width: 32px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.city>p {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 18px;
+}
+.city ul {
+  margin-top: 52px;
+}
+.city ul li { 
+  float: left;
+  margin: 0 15px;
+}
+.city .chosen select {
+  width: 236px;
+  height: 36px;
+}
+.city .search button {
+  width: 236px;
+  height: 36px;
+  color: #fff;
+  background-color: rgb(239, 79, 71);
 }
