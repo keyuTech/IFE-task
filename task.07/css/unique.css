@@ -192,7 +192,7 @@ header .head {
 .action {
   height: 605px;
   background-color: rgb(247, 247, 247);
-  padding: 100px 137px 118px 137px;
+  padding: 100px 148px 118px 148px;
 }
 .action ul {
   text-align: center;
@@ -200,15 +200,51 @@ header .head {
 }
 .action li {
   float: left;
-  width: calc(25% - 36px);
-  margin-left: 36px;
+  width: calc(25%);
+  text-align: center;
 }
 .action li img {
-  width: 202px;
-  height: 313px;
-}
-.action .active {
-  background-color: #fff;
-  padding: 12px 8px;
+  width: 219px;
+  height: 338px;
+  display: block;
   border: 1px solid rgb(210, 210, 210);
+  padding: 10px 8px;
+  margin-left: 13px;
+  background-color: #fff;
+}
+.action .others-active h4 {
+  font-size: 16px;
+  color: rgb(149, 149, 149);
+  margin: 11px 0px;
+}
+.action .others-active p {
+  font-size: 12px;
+  color: rgb(137, 137, 137);
+}
+.action .shanghai-active h4 {
+  font-size: 22px;
+  color: #000;
+  margin: 7px 0;
+  padding-left: 30px;
+  letter-spacing: 30px;
+}
+.action .shanghai-active p {
+  font-size: 12px;
+  color: rgb(137, 137, 137);
+  margin-bottom: 7px;
+}
+.detail-time {
+  height: 565px;
+}
+.time-left {
+  width: 850px;
+  height: 565px;
+  color: #fff;
+  float: left;
+  background: url(../image/task_1_7_1_0000s_0003s_0012_7.png) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.time-left h3 {
+  font-size: 50px;
 }
