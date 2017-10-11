@@ -235,6 +235,7 @@ header .head {
 }
 .detail-time {
   height: 565px;
+  position: relative;
 }
 .time-left {
   width: 850px;
@@ -244,7 +245,67 @@ header .head {
   background: url(../image/task_1_7_1_0000s_0003s_0012_7.png) center no-repeat;
   background-size: cover;
   text-align: center;
+  position: relative;
 }
-.time-left h3 {
+.time-left img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.time-left .newworld {
   font-size: 50px;
+  margin-top: 130px;
+}
+.time-left .time {
+  font-size: 120px;
+}
+.time-left .time-content {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.time-right {
+  width: 288px;
+  float: right;
+  padding-top: 120px;
+  margin-right: 70px;
+  text-align: center;
+}
+.time-right .time-title {
+  font-size: 20px;
+  color: #000;
+  margin: 30px 0;
+}
+.time-right .time-title span {
+  font-size: 20px;
+  color: rgb(231, 80, 77);
+}
+.time-right .time-right-content {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  line-height: 2.5em;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+.time-right .time-btn {
+  color: rgb(231, 80, 77);
+  border: 1px solid rgb(231, 80, 77);
+  padding: 9px 29px;
+  margin-bottom: 24px;
+}
+.time-right .time-dots .dot {
+  width: 12px;
+  height: 12px;
+  margin-right: 14px;
+  border: 2px solid rgb(149, 149, 149);
+  border-radius: 50%;
+  float: left;
+}
+.time-right .time-dots {
+  position: absolute;
+  bottom: 128px;
+  right: 170px;
+}
+.time-right .time-dots .dot:hover {
+  background-color: rgb(149, 149, 149)
 }
