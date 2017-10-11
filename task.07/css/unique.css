@@ -181,7 +181,6 @@ header .head {
   left: 9px;
   top: 9px;
 }
-
 .city .search button {
   width: 236px;
   height: 36px;
@@ -189,4 +188,27 @@ header .head {
   border: none;
   background-color: rgb(239, 79, 71);
   cursor: pointer;
+}
+.action {
+  height: 605px;
+  background-color: rgb(247, 247, 247);
+  padding: 100px 137px 118px 137px;
+}
+.action ul {
+  text-align: center;
+  margin: 0 auto;
+}
+.action li {
+  float: left;
+  width: calc(25% - 36px);
+  margin-left: 36px;
+}
+.action li img {
+  width: 202px;
+  height: 313px;
+}
+.action .active {
+  background-color: #fff;
+  padding: 12px 8px;
+  border: 1px solid rgb(210, 210, 210);
 }
