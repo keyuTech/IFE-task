@@ -5,6 +5,7 @@ header .head {
 .logo {
   float: left;
   margin-left: 59px;
+  cursor: pointer;
 }
 .logo li {
   float: left;
@@ -303,9 +304,107 @@ header .head {
 }
 .time-right .time-dots {
   position: absolute;
-  bottom: 128px;
+  bottom: 120px;
   right: 170px;
 }
 .time-right .time-dots .dot:hover {
   background-color: rgb(149, 149, 149)
+}
+.more {
+  height: 521px;
+}
+.more .bar {
+  float: left;
+  height: 100%;
+  text-align: center;
+}
+.more .bar p {
+  font-size: 21px;
+  line-height: 1.5em;
+}
+.more .bar a {
+  font-size: 21px;
+  padding: 11px 43px;
+}
+.more .more-bar1 {
+  width: 425px;
+  background-color: rgb(231, 80, 77);
+  color: #fff;
+  padding-top: 170px;
+}
+.more .more-bar1 .bar1-line {
+  width: 33px;
+  height: 2px;
+  background-color: #fff;
+  margin: 26px auto 37px;
+}
+.more .more-bar1 a {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.more .more-bar2 {
+  width: 425px;
+  padding-top: 170px;
+}
+.more .more-bar2 .bar2-line {
+  width: 33px;
+  height: 2px;
+  background-color: #000;
+  margin: 26px auto 37px;
+}
+.more .more-bar2 a {
+  color: rgb(231, 80, 77);
+  border: 1px solid rgb(231, 80, 77);
+}
+.more .more-bar3 {
+  width: 430px;
+  background: url(../image/task_1_7_1_0000s_0002s_0010__图像_.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.more .more-bar3 img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.more .more-bar3 .bar3-cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.volunteer {
+  height: 750px;
+  padding-top: 117px;
+}
+.volunteer .vol-start {
+  text-align: center;
+}
+.volunteer .vol-start h3 {
+  font-size: 21px;
+}
+.volunteer .volunteer-line {
+  width: 32px;
+  height: 2px;
+  background-color: rgb(231, 80, 77);
+  margin: 15px auto;
+}
+.volunteer .vol-start p {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+.volunteer .vol-start {
+  margin-bottom: 109px;
+}
+.volunteer .volunteer-content {
+  float: left;
+  width: 295px;
+  margin: 0 72px 0 136px;
+}
+.volunteer .volunteer-content h4 {
+  font-size: 14px;
+}
+.volunteer .volunteer-content p {
+  font-size: 12px;
+  color: rgb(161, 161, 161);
 }
