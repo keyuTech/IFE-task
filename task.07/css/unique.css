@@ -491,17 +491,18 @@ footer {
 .foot {
   height: 100%;
   color: #fff;
-  font-size: 12px;
-  font-family: "SimSun";
   background-color: rgb(47, 47, 56);
 }
-.foot .footer-left {
+.foot p {
+  font-size: 12px;
+  font-family: "SimSun";
   line-height: 57px;
+}
+.foot .footer-left {
   float: left;
   margin-left: 100px;
 }
 .foot .footer-right {
-  line-height: 57px;
   float: right;
   margin-right: 40px;
   cursor: pointer;
