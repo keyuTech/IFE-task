@@ -446,3 +446,62 @@ header .head {
 .input-area .submit {
   width: 644px;
 }
+.contact {
+  height: 358px;
+  background-color: rgb(51, 54, 63);
+  color: #fff;
+  text-align: center;
+}
+.contact h3 {
+  font-size: 21px;
+  font-family: "SimHei";
+  padding-top: 90px;
+}
+.contact p {
+  font-size: 12px;
+  font-family: "SimSun";
+  padding-top: 12px;
+  margin-bottom: 29px;
+}
+.contact input {
+  width: 431px;
+  height: 43px;
+  border: none;
+  margin: 0;
+}
+.contact .email {
+  padding: 13px 9px;
+}
+.contact .submit {
+  width: 80px;
+  color: #fff;
+  background-color: rgb(111, 114, 120);
+}
+.contact .icon {
+  margin-top: 36px;
+}
+.contact .icon .fa {
+  font-size: 28px;
+  color: #fff;
+}
+footer {
+  height: 57px;
+}
+.foot {
+  height: 100%;
+  color: #fff;
+  font-size: 12px;
+  font-family: "SimSun";
+  background-color: rgb(47, 47, 56);
+}
+.foot .footer-left {
+  line-height: 57px;
+  float: left;
+  margin-left: 100px;
+}
+.foot .footer-right {
+  line-height: 57px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+}
