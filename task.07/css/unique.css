@@ -385,7 +385,7 @@ header .head {
 }
 .volunteer .volunteer-line {
   width: 32px;
-  height: 2px;
+  height: 3px;
   background-color: rgb(231, 80, 77);
   margin: 15px auto;
 }
@@ -403,8 +403,46 @@ header .head {
 }
 .volunteer .volunteer-content h4 {
   font-size: 14px;
+  font-family: "SimHei";
+  margin-bottom: 12px;
 }
-.volunteer .volunteer-content p {
+.volunteer .volunteer-content p,
+.volunteer .volunteer-content a {
   font-size: 12px;
+  font-family: "SimSun";
+  line-height: 2em;
   color: rgb(161, 161, 161);
+}
+.volunteer .volunteer-content a {
+  float: right;
+}
+.volunteer .volunteer-content a img {
+  margin-right: 5px;
+}
+.volunteer-content .protocol{
+  margin-bottom: 48px;
+}
+.volunteer-content .right {
+  margin-bottom: 26px;
+}
+.input-area input,
+.input-area textarea {
+  background-color: rgb(237, 237, 237);
+  border: none;
+}
+.input-area input {
+  width: 310px;
+  height: 41px;
+  padding: 11px;
+  margin-right: 18px;
+  margin-bottom: 12px;
+}
+.input-area textarea {
+  width: 644px;
+  height: 134px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+.input-area .submit {
+  width: 644px;
 }
