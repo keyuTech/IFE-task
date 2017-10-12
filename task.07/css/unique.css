@@ -483,6 +483,7 @@ header .head {
 .contact .icon .fa {
   font-size: 28px;
   color: #fff;
+  margin: 0 14px;
 }
 footer {
   height: 57px;
