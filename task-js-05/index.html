@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript task 04</title>
+</head>
+<body>
+  <input id="input" type="text">
+  <input id="left-enter" type="button" value="左侧入">
+  <input id="right-enter" type="button" value="右侧入">
+  <input id="left-out" type="button" value="左侧出">
+  <input id="right-out" type="button" value="右侧出">
+  <ul id="output">
+    <!-- <li>1</li>
+    <li>6</li> -->
+  </ul>
+
+
+  <style>
+    li {
+      float: left;
+      color: #fff;
+      list-style: none;background-color: #666;
+      width: 20px;
+      margin: 0;
+      padding: 0;
+      border: 1px solid #fff;
+    }
+    ul {
+      height: 120px;
+      margin-top: 50px;
+      display: flex;
+      align-items: flex-end;
+    }
+  </style>
+
+  <script type="text/javascript">
+
+    function $(selector){
+      return document.querySelector(selector)
+    }
+    function getValue(){
+      var data = $('#input').value
+      return data
+    }
+    $('#left-enter').onclick = function(){
+      var data = getValue()
+      if(document.querySelectorAll("li").length>=60){
+        alert('队列元素多多于60')
+      }else{
+        if(data<10 || data>100){
+          alert('数字输入范围为10-100')
+        }else{
+          var node = document.createElement('li')
+          node.style.height = parseInt(data) + 10 + 'px'
+          $('#output').insertBefore(node, $('#output').firstChild)
+        }
+      }
+    }
+    $('#right-enter').onclick = function(){
+      var data = getValue()
+      if(document.querySelectorAll("li").length>=60){
+        alert('队列元素多多于60')
+      }else{
+        if(data<10 || data>100){
+          alert('数字输入范围为10-100')
+        }else{
+          var node = document.createElement('li')
+          node.style.height = parseInt(data) + 10 + 'px'
+          $('#output').appendChild(node)
+        }
+      }
+    }
+    $('#left-out').onclick = function(){
+      var firstChild = $('#output').firstChild
+      $('#output').removeChild(firstChild)
+    }
+    $('#right-out').onclick = function(){
+      var lastChild = $('#output').lastChild
+      $('#output').removeChild(lastChild)
+    }
+    $('#output').onclick = function(e){
+      $('#output').removeChild(e.target)
+    }
+  </script>
+</body>
+</html>
