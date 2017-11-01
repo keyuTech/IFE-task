@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form - 01</title>
+  <style>
+    body {
+      font-size: 20px;
+    }
+    .input {
+      width: 700px;
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+    }
+    span {
+      font-weight: bold;
+    }
+    input {
+      height: 40px;
+      padding-left: 10px;
+      margin: 0 20px;
+      border: 2px solid #ccc ;
+      border-radius: 5px;
+      font-size: 20px;
+      display: inline-block;
+    }
+    button {
+      color: #fff;
+      height: 40px;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #2f79ba;
+    }
+    p {
+      border: none;
+    }
+    .error {
+      border: 2px solid red;
+    }
+    .right {
+      border: 2px solid green;
+    }
+    input:focus, button:focus {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="input">
+    <span>名称</span>
+    <input type="text">
+    <button>验证</button>
+    <p>必填，长度为4~16个字符</p>
+  </div>
+  <script>
+    var content = document.querySelector('input')
+    var btn = document.querySelector('button')
+    var output = document.querySelector('p')
+    
+    btn.addEventListener('click', function(){
+      var len = 0
+      //判断是否存在中文
+      for(var i = 0; i<content.value.length; i++){
+        if(content.value[i].charCodeAt()>=0x4E00 && content.value[i].charCodeAt()<=0x9FA5){
+          len+=2
+        }else{
+          len++
+        }
+      }
+      switch (true){
+        case len == 0:
+          content.classList.add('error')
+          content.classList.remove('right')
+          output.innerText = '姓名不能为空'
+          break
+        case len <4 || len > 16:
+          content.classList.add('error')
+          content.classList.remove('right')
+          output.innerText = '长度为4~16个字符'
+          break
+        case len >= 4 && len <= 16:
+          content.classList.add('right')
+          content.classList.remove('error')    
+          output.innerText = '名称格式正确'
+      }
+    })
+  </script>
+</body>
+</html>
