@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+form, input, button {
+  outline: none;
+}
+form {
+  width: 500px;
+  margin: 80px auto;
+}
+div {
+  margin: 20px;
+}
+div::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+div span {
+  font-weight: bold;
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+}
+div p {
+  color: #666;
+  margin-left: 190px;
+  margin-top: 30px;
+  display: none;
+}
+div .show {
+  display: block;
+}
+input {
+  float: right;
+  height: 40px;
+  border: 2px #ccc solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+input:focus {
+  border-color: #328cd5;
+}
+button {
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #328cd5;
+  border: 1px #328cd5 solid;
+  border-radius: 5px;
+  float: right;
+  margin-right: 20px;
+}
