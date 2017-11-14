@@ -44,6 +44,12 @@ input {
 input:focus {
   border-color: #328cd5;
 }
+input.right {
+  border-color: green;
+}
+input.error {
+  border-color: red;
+}
 button {
   color: #fff;
   padding: 5px 15px;
