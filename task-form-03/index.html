@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Form 3</title>
+</head>
+<body>
+  <form>
+    <div id="chosen">
+      <div class="inschool">
+        <input type="radio" value="inschool" name="choose">
+        <span>在校生</span>
+      </div>
+      <div class="inwork">
+        <input type="radio" value="inwork" name="choose">
+        <span>非在校生</span>
+      </div>
+    </div>
+    <div id="inschool" class="hide">
+      <div id="cities">
+        <span>城市</span>
+        <select name="city" id="city">
+          <option class="beijing" value="beijing">北京</option>
+          <option class="shanghai" value="shanghai">上海</option>
+          <option class="guangzhou" value="guangzhou">广州</option>
+        </select>
+      </div>
+      <div id="school">
+        <span>学校</span>
+        <select name="school" class="beijingschool">
+          <option value="university">北京大学</option>
+          <option value="middle">北京中学</option>
+          <option value="primary">北京小学</option>
+        </select>
+        <select name="school" class="shanghaischool hide">
+          <option value="university">上海大学</option>
+          <option value="middle">上海中学</option>
+          <option value="primary">上海小学</option>
+        </select>
+        <select name="school" class="guangzhouschool hide">
+          <option value="university">广州大学</option>
+          <option value="middle">广州中学</option>
+          <option value="primary">广州小学</option>
+        </select>
+      </div>
+    </div>
+    <div id="inwork" class="hide">
+      <span>就业单位</span>
+      <input type="text">
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

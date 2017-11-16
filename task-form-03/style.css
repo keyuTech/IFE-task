@@ -1,0 +1,44 @@
+  span, form, input, select, option,div {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+#chosen {
+  margin: 40px;
+}
+#chosen input {
+  margin-left: 40px;
+}
+/* .show {
+  display: inline-block;
+} */
+.hide {
+  display: none;
+}
+.chosen {
+  display: flex;
+}
+.chosen div {
+  flex: 1;
+}
+.inschool {
+  float: left;
+}
+.inschool::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cities {
+  float: left;
+}
+#school {
+  float: right;
+}
